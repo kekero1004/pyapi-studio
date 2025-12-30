@@ -1,5 +1,8 @@
 # PyAPI Studio
 
+<img width="1913" height="1027" alt="image" src="https://github.com/user-attachments/assets/1701e554-c9fd-457d-b388-594c7aee83a6" />
+
+
 <div align="center">
 
 ![PyAPI Studio](https://img.shields.io/badge/PyAPI-Studio-blue?style=for-the-badge)
