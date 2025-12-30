@@ -1,0 +1,17 @@
+# PyAPI Studio Dependencies
+
+# GUI
+PyQt6>=6.6.0
+qasync>=0.27.0
+
+# HTTP Client
+httpx[http2]>=0.27.0
+
+# Database
+SQLAlchemy>=2.0.0
+
+# JSON Processing
+orjson>=3.9.0
+
+# Security (optional)
+keyring>=25.0.0

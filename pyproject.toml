@@ -1,0 +1,26 @@
+[project]
+name = "pyapi-studio"
+version = "1.0.0"
+description = "Lightweight Desktop API Testing Tool"
+requires-python = ">=3.12"
+
+dependencies = [
+    "PyQt6>=6.6.0",
+    "httpx[http2]>=0.27.0",
+    "qasync>=0.27.0",
+    "SQLAlchemy>=2.0.0",
+    "orjson>=3.9.0",
+    "keyring>=25.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-qt>=4.3.0",
+    "black>=24.0.0",
+    "ruff>=0.2.0",
+]
+
+[project.scripts]
+pyapi-studio = "src.main:main"
